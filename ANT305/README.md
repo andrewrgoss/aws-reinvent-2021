@@ -9,7 +9,7 @@ This workshop is for data professionals to learn about Amazon EMR Studio to deve
 ### How to use PySpark in EMR Studio to write and schedule some basic ETL
 Utilize the prepared data for some data analysis and visualization
 How to deploy your work to a publicly-hosted CloudFront website
-You can expect this workshop to take approximiately 2 hours to complete. It will be helpful if you are familiar with Jupyter and PySpark, but not required.
+You can expect this workshop to take approximately 2 hours to complete. It will be helpful if you are familiar with Jupyter and PySpark, but not required.
 
 ### Will any costs be incurred?
 If you run this workshop in your own account using the "Self Paced Labs" option, it will incur costs for various resources including:
@@ -44,7 +44,9 @@ To learn more about Amazon EMR Studio, please check the following resources:
 In this lab, we'll use PySpark to explore some weather data, create a basic ETL, and schedule the notebook with parameters.
 
 ### Source Data
-We'll use the <a href="https://registry.opendata.aws/noaa-gsod" target=_>NOAA Global Surface Summary of Day</a> dataset from the <a href="https://registry.opendata.aws" target=_>Registry of Open Data</a>. The dataset records daily weather observations from over 9000 weather stations across the globe. Each day's observation is stored in a CSV file for each weather station in a single S3 prefix. To begin, we'll read data from 2021 and use df.show() to get an idea of what it looks like.
+We'll use the <a href="https://registry.opendata.aws/noaa-gsod" target=_>NOAA Global Surface Summary of Day</a> dataset from the <a href="https://registry.opendata.aws" target=_>Registry of Open Data</a>. The dataset records daily weather observations from over 9000 weather stations across the globe. Each day's observation is stored in a CSV file for each weather station in a single S3 prefix. Specific weather station data can be searched <a href="https://www.ncei.noaa.gov/access/search/data-search/global-summary-of-the-day" target=_>here</a>. 
+
+To begin, we'll read data from 2021 and use df.show() to get an idea of what it looks like.
 
 ## Lab 2: Data Analysis
 In this lab, we'll use Python and common libraries like matplotlib and seaborn to draw a visualization of weather data.
