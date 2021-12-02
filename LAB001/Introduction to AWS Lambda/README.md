@@ -14,4 +14,4 @@ By the end of this lab you will be able to:
 * Monitor AWS Lambda S3 functions through Amazon CloudWatch Log
 
 ### Scenario
-![AWS Lambda Lab](/aws_lambda_lab.png)
+![AWS Lambda Lab](/LAB001/Introduction to AWS Lambda/aws_lambda_lab.png)
