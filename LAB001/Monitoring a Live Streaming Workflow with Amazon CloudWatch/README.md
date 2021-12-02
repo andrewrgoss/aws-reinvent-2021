@@ -42,3 +42,13 @@ By the end of this lab, you will be able to:
 * Create metrics to measure MediaPackage input and output
 * Build a dashboard to view those metrics
 * Manipulate the workflow and observe the results in CloudWatch
+
+### Tasks I Completed Through This Lab
+* Created an Amazon SNS topic and CloudWatch event to send email notifications about MediaLive events and status
+* Built a dashboard to monitor the following metrics:
+    * Network input into MediaLive
+    * Network output from MediaLive
+    * Ingress into MediaPackage
+    * Egress from MediaPackage
+* Set up alarms and notifications based on metrics from MediaPackage
+* Tested the monitoring by changing conditions in the live stream
